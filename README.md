@@ -38,6 +38,10 @@ Windows konsolunda çalışan, C ile sıfırdan yazılmış bir metin editörü.
 gcc main.c -o notepad.exe
 ```
 
+## İlk sürüm
+
+[`ilk-surum-pdcurses/`](ilk-surum-pdcurses/main.c) klasöründe editörün PDCurses kütüphanesiyle yazılmış ilk sürümü duruyor. Son sürümde PDCurses bağımlılığı kaldırılıp girdi doğrudan Windows Console API ile okunuyor.
+
 ## Ekip
 
 - [Halit Bulut](https://github.com/HalittBulut)
